@@ -32,7 +32,7 @@ function ProgramSection({}: Props) {
             <span>Explore Fields of Study</span>
             <span className="absolute bottom-0 left-0 h-2 w-14 bg-primary"></span>
         </h2>
-        <p>Slide 1 to 4 of 4</p>
+        <p>Slide 1 to 3 of 3</p>
         <div className="relative w-full">
             {/* Slides */}
             <div className="w-full grid grid-cols-3 gap-6">

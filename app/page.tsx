@@ -1,5 +1,6 @@
 import GlobalInsightWidget from "@/components/GlobalInsightWidget";
 import ImpactSection from "@/components/ImpactSection";
+import MapSection from "@/components/MapSection";
 import NewsLetterWidget from "@/components/NewsLetterWidget";
 import NewsWidget from "@/components/NewsWidget";
 import ProgramSection from "@/components/ProgramSection";
@@ -16,6 +17,7 @@ export default function Home() {
       {/* TakeAction widget */}
       {/* <TakeActionWidget /> */}
       {/* NewsLetter */}
+      <MapSection />
       <NewsLetterWidget />
     </main>
   );

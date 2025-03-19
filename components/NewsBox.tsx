@@ -9,9 +9,9 @@ type Props = {
 
 function NewsBox({ data }: Props) {
   return (
-    <div className="mb-32 relative h-52 ">
+    <div className="mb-32 relative min-h-72 ">
         <Image src={data.image} alt="" className="object-cover object-left-top" fill/> 
-        <div className="relative top-6 -left-32 h-12 opacity-50">
+        <div className="relative top-3 -left-20 h-8 opacity-30">
              <Image src={Watermark} alt="" className="object-contain" fill />
         </div>
         
@@ -22,7 +22,7 @@ function NewsBox({ data }: Props) {
             </div>
             <h1 className="text-base md:text-base font-black leading-[20px] text-[#0E1A62] uppercase">{data.title}</h1>
             <p className="text-base font-medium line-clamp-4">{data.excerpt}</p>
-            {/* <div className="pb-4 text-xs font-bold">by ACO | {data.date}</div> */}
+            <div className="pb-4 text-xs font-bold">by {data.author} | {data.date}</div>
         </div> 
     </div>
   )
