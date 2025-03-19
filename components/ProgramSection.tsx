@@ -36,7 +36,7 @@ function ProgramSection({}: Props) {
         <div className="relative w-full">
             {/* Slides */}
             <div className="w-full grid grid-cols-3 gap-6">
-               { data.map((r,i) => <ProgramCard title={r.title} description={r.description} link={r.link} /> )}
+               { data.map((r,i) => <ProgramCard key={i} title={r.title} description={r.description} link={r.link} /> )}
             </div>
             {/* Switcher */}
             <div className="absolute -left-9 top-1/2 -translate-y-[50%] h-14 w-14 bg-blue-950 rounded-full flex items-center justify-center">
