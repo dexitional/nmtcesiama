@@ -1,4 +1,4 @@
-import Noimage from '@/public/bg1.jpeg';
+import Noimage from '@/public/bg1.jpg';
 import Image from "next/image";
 import { FaShareNodes } from 'react-icons/fa6';
 
