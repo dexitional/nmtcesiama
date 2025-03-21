@@ -1,6 +1,8 @@
 import { getPost } from "@/lib/api";
 import Image from "next/image";
 import Img from '@/public/bread.jpg'
+import { FaPeopleGroup } from "react-icons/fa6";
+import VisionSection from "@/components/VisionSection";
 
 const { STRAPI_APP_URL } = process.env;
 
@@ -62,21 +64,7 @@ export default async function Page({
         </div>
       </section>  */}
 
-      <section className="px-6 md:px-0 mb-10 w-full">
-        <div className="mx-auto py-10 md:max-w-[68rem] flex flex-col space-y-4">
-          <div className="space-y-2 border-b border-black">
-            <h1 className="md:text-xl font-medium flex items-center justify-between">
-              <span className="">Most Recent Publications</span>
-              <button className="px-2 md:px-3 py-1 bg-black text-xs md:text-sm text-white font-semibold">
-                More
-              </button>
-            </h1>
-          </div>
-          <div className="w-full grid grid-cols-1 md:grid-cols-4 md:gap-x-6 gap-y-10">
-            reviewcard
-          </div>
-        </div>
-      </section> 
+      <VisionSection />
 
       
     </main>
