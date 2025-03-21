@@ -15,5 +15,5 @@ export const dynamic = 'force-static'
 export { metadata, viewport } from 'next-sanity/studio'
 
 export default function StudioPage() {
-  return <NextStudio config={config} />
+  return <div className="z-1 overflow-hidden w-full"><NextStudio config={config} /></div>
 }

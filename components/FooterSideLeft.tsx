@@ -10,8 +10,8 @@ function FooterSideLeft({}: Props) {
   return (
     <div className="pb-10 sm:pb-0 sm:pr-3 sm:min-h-48 sm:min-w-[23rem] flex flex-col space-y-6 sm:space-y-6 sm:border-r-4 border-b-4 sm:border-b-0 border-dashed border-white">
         <div className="space-y-3">
-            <h1 className="text-xl sm:text-[1.7rem] leading-5 sm:leading-8 font-black text-justify">Nursing and Midwifery Training College - Esiama.</h1>
-            <p className="text-sm sm:text-lg leading-5 sm:leading-8 font-black">P.O.Box 7, Esiama W/R, Ghana, West Africa.     </p>
+            <h1 className="text-xl sm:text-[1.7rem] leading-5 sm:leading-8 font-black text-primary md:text-black text-justify">Nursing and Midwifery Training College - Esiama.</h1>
+            <p className="text-base sm:text-lg leading-5 sm:leading-8 font-black">P.O.Box 7, Esiama W/R, Ghana, West Africa.     </p>
         </div>
         <div className="flex items-center justify-start space-x-4">
             <div className="p-3 h-fit w-fit bg-primary rounded-full">

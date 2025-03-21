@@ -1,7 +1,7 @@
 import { fetchImpacts } from "@/lib/api";
 import { urlFor } from "@/sanity";
 import Link from "next/link";
-import NoImg from "../public/g4A.png";
+import NoImg from "../public/logo.png";
 import ProjectMiniCard from "./ProjectMiniCard";
 
 type Props = {};

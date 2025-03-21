@@ -1,6 +1,6 @@
 export default {
   name: 'library',
-  title: 'Libray',
+  title: 'Library',
   type: 'document',
   fields: [
     {

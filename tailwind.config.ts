@@ -9,6 +9,9 @@ const config: Config = {
   ],
   theme: {
   	extend: {
+		backgroundImage: {
+		  'header-bg': "url('/public/bread.jpg')",
+		},
   		fontFamily: {
 			sans: ['var(--font-tstar)'],
   			inter: [
@@ -21,7 +24,6 @@ const config: Config = {
   			dancing: [
   				'var(--font-dancing)'
   			],
-			
 		},
   		colors: {
   			'primary': 'rgb(2 49 153)',

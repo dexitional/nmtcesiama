@@ -1,7 +1,10 @@
+import {ImageIcon, TagIcon} from '@sanity/icons'
+
 export default {
   name: 'gallery',
   title: 'Galleries',
   type: 'document',
+  icon: ImageIcon,
   fields: [
     {
       name: 'title',
